@@ -1,0 +1,13 @@
+Package: docker-desktop
+Version: 4.16.2-95914
+Architecture: amd64
+Maintainer: Docker Inc.
+Pre-Depends: init-system-helpers (>= 1.54~)
+Depends: curl, qemu-system-x86 (>= 5.2.0), docker-ce-cli, libseccomp2, libcap-ng0, pass, desktop-file-utils, libgtk-3-0, libx11-xcb1, uidmap
+Filename: ./docker-desktop.deb
+Size: 504616424
+MD5sum: 39e1a0a4d1d381249241c666ffe44ace
+SHA1: 4e677ea9a693c8654e0e4cc1b3efac7ddf7797d5
+SHA256: fa3023eb16c24dcbdc5f12021340e874d8399863e96c1a58091c9a41fd50fe58
+Description: Docker Desktop is an easy-to-install application that enables you to locally build and share containerized applications and microservices. It includes Docker Engine, Docker CLI client, Docker Compose, Docker Content Trust, Kubernetes, and Credential Helper. Docker Desktop runs a light-weight Linux VM to provide an isolated local container runtime, and an experience consistent with Mac and Windows versions of Docker Desktop.
+
