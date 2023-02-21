@@ -4,8 +4,8 @@ Experimenting with using a PPA for managing apps.
 
 ## Why
 
-I needed a way to centrally manage versions of
-certain apps on any Linux box or container I use.
+To centrally manage versions of certain apps 
+on any Linux box or container I use.
 
 This repo publishes a PPA at https://ppa.nick-santos.com/.
 
