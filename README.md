@@ -12,7 +12,7 @@ This repo publishes a PPA at https://ppa.nick-santos.com/.
 ## Installation
 
 ```
-curl -s --compressed "https://ppa.nick-santos.com/KEY.gpg" | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/nick-santos.gpg
+curl -s --compressed "https://ppa.nick-santos.com/KEY.gpg" | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/nick-santos.gpg > /dev/null
 sudo curl -s --compressed -o /etc/apt/sources.list.d/nick-santos.list "https://ppa.nick-santos.com/nick-santos.list"
 sudo apt update
 ```
