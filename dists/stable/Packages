@@ -4,7 +4,7 @@ Architecture: amd64
 Maintainer: Docker Inc.
 Pre-Depends: init-system-helpers (>= 1.54~)
 Depends: curl, qemu-system-x86 (>= 5.2.0), docker-ce-cli, libseccomp2, libcap-ng0, pass, desktop-file-utils, libgtk-3-0, libx11-xcb1, uidmap
-Filename: ./dists/stable/docker-desktop_4.26.1_amd64.deb
+Filename: ./docker-desktop_4.26.1_amd64.deb
 Size: 426087280
 MD5sum: 3152f2bd33f0f0a196ac963ed418ad18
 SHA1: 30d28c2b82e9137e264e336aec87648f64152d28

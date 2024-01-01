@@ -3,12 +3,13 @@
 set -ex
 
 cd $(dirname $(dirname $(realpath "$0")))
+cd dists/stable
 
 EMAIL="nicholas.j.santos@gmail.com"
 
-dpkg-scanpackages --multiversion . > dists/stable/Packages
-gzip -k -f dists/stable/Packages
+dpkg-scanpackages --multiversion . > Packages
+gzip -k -f Packages
 
-apt-ftparchive release . > dists/stable/Release
-gpg --default-key "${EMAIL}" -abs -o - dists/stable/Release > dists/stable/Release.gpg
-gpg --default-key "${EMAIL}" --clearsign -o - dists/stable/Release > dists/stable/InRelease
+apt-ftparchive release . > Release
+gpg --default-key "${EMAIL}" -abs -o - Release > Release.gpg
+gpg --default-key "${EMAIL}" --clearsign -o - Release > InRelease

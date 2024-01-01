@@ -1,1 +1,1 @@
-deb [arch=amd64 signed-by=/etc/apt/trusted.gpg.d/nick-santos.gpg] https://ppa.nick-santos.com stable main
+deb [arch=amd64 signed-by=/etc/apt/trusted.gpg.d/nick-santos.gpg] https://ppa.nick-santos.com dists/stable/
