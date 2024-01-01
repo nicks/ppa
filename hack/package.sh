@@ -3,6 +3,7 @@
 set -ex
 
 cd $(dirname $(dirname $(realpath "$0")))
+cd dists/stable
 
 EMAIL="nicholas.j.santos@gmail.com"
 
