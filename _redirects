@@ -1,1 +1,1 @@
-docker-desktop_4.26.1_amd64.deb https://desktop.docker.com/linux/main/amd64/docker-desktop-4.26.1-amd64.deb
+dists/stable/docker-desktop_4.26.1_amd64.deb https://desktop.docker.com/linux/main/amd64/docker-desktop-4.26.1-amd64.deb
